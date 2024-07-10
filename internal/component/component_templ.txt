@@ -1,4 +1,8 @@
-<header class=\"p-6 flex flex-col justify-between\"><img src=\"/static/svg/logo.svg\" class=\"h-20 w-20\"></header>
+<div class=\"flex flex-shrink-0 items-center\"><img class=\"block h-8 w-auto lg:hidden\" src=\"
+\" alt=\"Your Company\"> <img class=\"hidden h-8 w-auto lg:block\" src=\"
+\" alt=\"Your Company\"></div>
+<h1 class=\"text-3xl font-bold leading-tight tracking-tight text-gray-900\">
+</h1>
 <div><h1 class=\"text-lg font-bold\">
 </h1><p class=\"text-sm\">
 </p></div>

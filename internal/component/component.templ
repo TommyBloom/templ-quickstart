@@ -1,9 +1,14 @@
 package component
 
-templ Banner() {
-    <header class='p-6 flex flex-col justify-between'>
-        <img src='/static/svg/logo.svg' class='h-20 w-20' />
-    </header>
+templ Banner(logoImage string) {
+        <div class="flex flex-shrink-0 items-center">
+            <img class="block h-8 w-auto lg:hidden" src={logoImage} alt="Your Company">
+            <img class="hidden h-8 w-auto lg:block" src={logoImage} alt="Your Company">
+        </div>   
+}
+
+templ PageHeader(headerH1 string){
+    <h1 class="text-3xl font-bold leading-tight tracking-tight text-gray-900">{headerH1}</h1>
 }
 
 templ TextAndTitle(title string, text string) {
